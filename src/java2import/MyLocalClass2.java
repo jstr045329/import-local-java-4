@@ -1,3 +1,5 @@
+// If this looks a lot like MyLocalClass1, you're right.
+// The sole purpose of this file is to show that source/repl can import more than 1 file.
 package java2import;
 
 public class MyLocalClass2 {
