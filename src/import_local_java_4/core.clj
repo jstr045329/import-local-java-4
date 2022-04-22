@@ -10,6 +10,12 @@
 ;; Call the 2-arity constructor in MyLocalClass2:
 (def uut2 (new MyLocalClass2 -6 "my name is fred"))
 
+;; At the REPL, import like this:
+;; import-local-java-4.core=> (import '[java2import MyLocalClass2])
+;; java2import.MyLocalClass2
+;; import-local-java-4.core=> (import java2import.MyLocalClass1)
+;; java2import.MyLocalClass1
+
 ;; Now at the REPL, you should be able to call setters & getters of our objects:
 ;; import-local-java-4.core=> (.getX uut2)
 ;; -6
